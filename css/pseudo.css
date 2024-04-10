@@ -1,0 +1,60 @@
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.page-header {
+  padding: 50px 0;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+}
+
+.menu-link {
+  display: block;
+  min-width: 100px;
+  text-align: center;
+  padding: 12px 10px;
+  border-radius: 6px;
+  border: 1px solid #000000;
+  color: #000000;
+}
+
+/* 
+  :hover
+  :focus
+  :active
+*/

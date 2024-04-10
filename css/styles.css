@@ -1,0 +1,107 @@
+/* 
+  Універсальний селектор
+  Селектор елемента
+  Селектор по id
+  Селектор класа
+  Селектор нащадка
+  Дочірній селектор
+*/
+
+/* Універсальний селектор */
+/* 
+* {
+  box-sizing: border-box;
+} 
+*/
+
+/* Селектор елемента */
+/* 
+h1 {
+  color: teal;
+}
+
+p {
+  color: yellowgreen;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+} 
+*/
+
+/* Селектор по id */
+/* 
+#text {
+  color: yellowgreen;
+}
+
+#secondary-text {
+  color: yellowgreen;
+} 
+*/
+
+/* Селектор класа */
+/* .description {
+  color: yellowgreen;
+} */
+
+/* Селектор нащадка */
+/* 
+.menu-link {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.page-header .menu-link {
+  color: teal;
+}
+
+.page-footer .menu-link {
+  color: yellowgreen;
+} 
+*/
+
+/* Дочірній селектор */
+/* 
+.list > .list-item {
+  border: 1px solid #000000;
+} 
+*/
+
+/* Каскадність */
+/* 10 */
+/* .title {
+  color: teal;
+} */
+
+/* 100 */
+/* #title {
+  color: yellowgreen;
+} */
+
+/* 1 */
+/* h1 {
+  color: aqua !important;
+} */
+
+/* 12 */
+/* body main .title {
+  color: blueviolet;
+} */
+
+body {
+  color: yellowgreen;
+}
+
+a {
+  color: inherit;
+}
+
+.title {
+  color: teal;
+}
