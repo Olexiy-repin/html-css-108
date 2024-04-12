@@ -19,6 +19,19 @@ body {
   background-color: #fafafa;
 }
 
+.accent-color {
+  color: #fd9222;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 /* ============ HEADER STYLES ============ */
 .page-logo {
   font-weight: 700;
@@ -44,3 +57,141 @@ body {
 }
 
 /* ============ HERO STYLES ============ */
+.main-title {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.21;
+  letter-spacing: -0.03em;
+}
+
+.buy-now-btn {
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #fd9222;
+  color: #ffffff;
+}
+
+.buy-now-btn:hover,
+.buy-now-btn:focus {
+  background-color: #fcf1e0;
+  color: #fd9222;
+}
+
+.how-made-link {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.how-made-link:hover,
+.how-made-link:focus {
+  color: #fd9222;
+}
+
+.scroll-down-link {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.29;
+  letter-spacing: -0.03em;
+}
+
+.scroll-down-link:hover,
+.scroll-down-link:focus {
+  color: #fd9222;
+}
+
+/* ============ BENEFITS STYLES ============ */
+.benefits-list-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.benefits-list-text {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+
+/* ============ INGREDIENTS STYLES ============ */
+.ingredients-description {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+
+.ingredients-list-title {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+/* ============ HOW MADE STYLES ============ */
+.how-made-title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.33;
+}
+
+.how-made-list-item {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+
+/* ============ REVIEWS STYLES ============ */
+.reviews-list-fullname {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.33;
+  text-align: center;
+}
+
+.reviews-list-text {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(17, 17, 17, 0.7);
+}
+
+.leave-review-btn {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.leave-review-btn:hover,
+.leave-review-btn:focus {
+  color: #ffffff;
+  background-color: #fd9222;
+}
+
+/* ============ FOOTER STYLES ============ */
+.page-footer-title {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.21;
+  letter-spacing: -0.02em;
+}
+
+.contact-block {
+  font-style: normal;
+}
+
+.contact-text {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.29;
+}
+
+.contact-list-link {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+
+.contact-list-link:hover,
+.contact-list-link:focus {
+  color: #fd9222;
+}
