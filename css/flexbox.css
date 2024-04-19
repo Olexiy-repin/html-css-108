@@ -41,11 +41,21 @@ ol {
 }
 
 .benefits-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-wrap: wrap;
+  /* column-gap: 20px;
+  row-gap: 60px; */
+  gap: 20px 60px;
+
   border: 1px solid #000000;
 }
 
 .benefits-list-item {
   width: 308px;
+
   padding: 20px;
   border: 1px solid tomato;
 }
