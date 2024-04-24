@@ -1,0 +1,20 @@
+.background {
+  width: 900px;
+  height: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 10px solid rgba(0, 0, 255, 0.4);
+  color: #ffffff;
+
+  background-color: #303030;
+  background-image: linear-gradient(
+      rgba(30, 24, 35, 0.4),
+      rgba(30, 24, 35, 0.4)
+    ),
+    url('../images/bg.jpg');
+  /* background-repeat: no-repeat; */
+  /* background-position: left top; */
+  background-size: cover;
+  /* background-origin: padding-box; */
+  background-clip: padding-box;
+}

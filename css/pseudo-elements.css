@@ -1,0 +1,71 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.section-paddings {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.title {
+  font-family: sans-serif;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.title::after {
+  display: block;
+  content: '';
+  width: 200px;
+  height: 4px;
+  background-color: teal;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.task:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.task::before {
+  display: block;
+  content: '';
+  width: 18px;
+  height: 18px;
+  background-image: url('../images/pattern-bg.jpg');
+  background-size: cover;
+}

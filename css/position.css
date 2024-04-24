@@ -1,0 +1,44 @@
+body {
+  height: 1000px;
+}
+
+.wrapper {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid red;
+}
+
+.container {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid #000000;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.red {
+  width: 140px;
+  height: 140px;
+  background-color: #e74c3c;
+}
+
+.blue {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(0, 0, 255, 0.5);
+}
+
+.yellow {
+  width: 80px;
+  height: 80px;
+  background-color: #f1c40f;
+}
