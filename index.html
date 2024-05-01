@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <form class="order-form">
+      <label class="order-form-field-label" for="user-first-name">
+        Your first name <span class="required-color">*</span>
+      </label>
+      <input
+        class="order-form-input"
+        id="user-first-name"
+        type="text"
+        placeholder="Oleksii"
+        required
+        name="user-first-name"
+        pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+"
+        title="Oleksii"
+      />
+
+      <label class="order-form-field-label" for="user-email">
+        Your email <span class="required-color">*</span>
+      </label>
+      <input
+        class="order-form-input"
+        id="user-email"
+        type="email"
+        placeholder="test@gmail.com"
+        required
+        name="user-email"
+      />
+
+      <label class="order-form-field-label" for="user-tel">
+        Your phone number <span class="required-color">*</span>
+      </label>
+      <input
+        class="order-form-input"
+        id="user-tel"
+        type="tel"
+        placeholder="xxx-xxx-xx-xx"
+        required
+        name="user-tel"
+        pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+        title="xxx-xxx-xx-xx"
+      />
+
+      <fieldset class="order-form-fieldset">
+        <legend class="order-form-legend">Pizza size</legend>
+
+        <ul>
+          <li>
+            <label for="pizza-size-s">S</label>
+            <input type="radio" id="pizza-size-s" name="pizza-size" value="s" />
+          </li>
+          <li>
+            <label for="pizza-size-m">M</label>
+            <input type="radio" id="pizza-size-m" name="pizza-size" value="m" />
+          </li>
+          <li>
+            <label for="pizza-size-l">L</label>
+            <input type="radio" id="pizza-size-l" name="pizza-size" value="l" />
+          </li>
+        </ul>
+      </fieldset>
+
+      <fieldset class="order-form-fieldset">
+        <legend class="order-form-legend">Additional ingredients</legend>
+
+        <ul>
+          <li>
+            <label>
+              Cheese
+              <input type="checkbox" name="additional-ingredients" value="cheese" />
+            </label>
+          </li>
+          <li>
+            <label>
+              Mushrooms
+              <input type="checkbox" name="additional-ingredients" value="mushrooms" />
+            </label>
+          </li>
+          <li>
+            <label>
+              Peperoni
+              <input type="checkbox" name="additional-ingredients" value="peperoni" />
+            </label>
+          </li>
+        </ul>
+      </fieldset>
+
+      <textarea
+        class="order-form-comment"
+        name="user-comment"
+        placeholder="Your comment"
+      ></textarea>
+
+      <label class="order-form-city-wrapper">
+        Your city
+
+        <select name="user-city">
+          <optgroup label="Kyiv region">
+            <option value="kyiv">Kyiv</option>
+            <option value="irpin">Irpin</option>
+            <option value="bucha">Bucha</option>
+          </optgroup>
+
+          <optgroup label="Poltava region">
+            <option value="poltava">Poltava</option>
+            <option value="kremenchuk">Kremenchuk</option>
+            <option value="globino">Globino</option>
+          </optgroup>
+        </select>
+      </label>
+
+      <div class="order-form-btn-wrapper">
+        <button type="submit" class="order-form-btn order-form-btn-submit">Submit</button>
+        <button type="reset" class="order-form-btn order-form-btn-reset">Clear</button>
+      </div>
+    </form>
+  </body>
+</html>
