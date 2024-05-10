@@ -28,13 +28,47 @@ body {
 */
 
 .hero {
-  max-width: 1200px;
-  min-height: 675px;
+  max-width: 375px;
+  min-height: 211px;
   margin-left: auto;
   margin-right: auto;
 
-  background-image: url('../images/retina/bg-desktop.jpg');
+  background-image: url('../images/retina/bg-mobile.jpg');
   background-size: cover;
+}
+
+@media screen and (max-width: 767px) and (min-resolution: 192dpi) {
+  .hero {
+    background-image: url('../images/retina/bg-mobile@2x.jpg');
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    max-width: 768px;
+    min-height: 432px;
+    background-image: url('../images/retina/bg-tablet.jpg');
+  }
+}
+
+@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+  .hero {
+    background-image: url('../images/retina/bg-tablet@2x.jpg');
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero {
+    max-width: 1200px;
+    min-height: 675px;
+    background-image: url('../images/retina/bg-desktop.jpg');
+  }
+}
+
+@media screen and (min-width: 1200px) and (min-resolution: 192dpi) {
+  .hero {
+    background-image: url('../images/retina/bg-desktop@2x.jpg');
+  }
 }
 
 .section {
